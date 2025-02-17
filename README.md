@@ -46,7 +46,7 @@ You can refer to [this link](https://drive.google.com/file/d/1tGqMx-E4QZpSg2HQbV
 You can refer to [this link](https://drive.google.com/file/d/13qYHNIWTIBzwyFgScORL2RFd002vrPF2/view) to download the Synapse dataset and place it in **./data/ACDC**.
 ### Polyp
 You can refer to [this link](https://drive.google.com/file/d/1pFxb9NbM8mj_rlSawTlcXG1OdVGAbRQC/view) to download the Synapse dataset and place it in **./data/polyp**.
-## Train 
+## Training
 ```
 python train_synapse.py
 ```
