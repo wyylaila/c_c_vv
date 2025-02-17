@@ -8,10 +8,15 @@ The file organization structure should be：
 RMEUNet/
 
 ├── data/
+
 │   ├── ACDC/
+
 │   ├── polyp/
+
 │   └── synapse/
+
 ├── lists/
+
 │   └──lists_Synapse/
 ├── model_pth/
 ├── result_map/
