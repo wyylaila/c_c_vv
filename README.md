@@ -6,11 +6,11 @@ The file organization structure should be：
 
 
 RMEUNet/
-├── data/
+    ├── data/
 │   ├── ACDC/
 │   ├── polyp/
 │   └── synapse/
-├── lists/
+├── lists/ 
 │   └──lists_Synapse/
 ├── model_pth/
 ├── result_map/
@@ -24,12 +24,7 @@ RMEUNet/
 │       ├── networks.py
 │       ├── pvtv2.py
 │       └── resnet.py
-├── test_log/ ├── 📜 .gitignore # 新增：git忽略规则
-├── 📜 requirements.txt # 新增：Python依赖
-├── 📜 setup.py # 新增：打包安装配置
-├── 📜 LICENSE # 新增：开源协议
-├── 📜 CONTRIBUTING.md # 新增：贡献指南
-└── 📜 README.md # 优化后的说明文档
+├── test_log/├
 ├── utils/
 │   ├── dataloader.py
 │   ├── dataset_synapse.py
