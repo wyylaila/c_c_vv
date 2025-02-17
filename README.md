@@ -39,16 +39,18 @@ RMEUNet/
 ## Some models
 You should download the pretrained model of resnet from [this link](https://download.pytorch.org/models/).
 And place it in  **./REUNet/lib/**.
-## Synapse
-### Dataset
-You can refer to [this link](https://github.com/Beckschen/TransUNet/blob/main/datasets/README.md) to download the Synapse dataset and place it in **./data/**.
-### Train 
+## Datasets
+### Synapse
+You can refer to [this link](https://drive.google.com/file/d/1tGqMx-E4QZpSg2HQbVq5W3KSTHSG0hjK/view) to download the Synapse dataset and place it in **./data/synapse**.
+### ACDC
+You can refer to [this link](https://drive.google.com/file/d/13qYHNIWTIBzwyFgScORL2RFd002vrPF2/view) to download the Synapse dataset and place it in **./data/ACDC**.
+### Polyp
+You can refer to [this link](https://drive.google.com/file/d/1pFxb9NbM8mj_rlSawTlcXG1OdVGAbRQC/view) to download the Synapse dataset and place it in **./data/polyp**.
+## Train 
 ```
 python train_synapse.py
 ```
-### Test
+## Test
 ```
 python test_synapse.py
 ```
-## ACDC and Polyp
-The codes will be shown as soon.
