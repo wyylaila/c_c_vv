@@ -43,9 +43,9 @@ And place it in  **./REUNet/lib/**.
 ### Synapse
 You can refer to [this link](https://drive.google.com/file/d/1tGqMx-E4QZpSg2HQbVq5W3KSTHSG0hjK/view) to download the Synapse dataset and place it in **./data/synapse**.
 ### ACDC
-You can refer to [this link](https://drive.google.com/file/d/13qYHNIWTIBzwyFgScORL2RFd002vrPF2/view) to download the Synapse dataset and place it in **./data/ACDC**.
+You can refer to [this link](https://drive.google.com/file/d/13qYHNIWTIBzwyFgScORL2RFd002vrPF2/view) to download the ACDC dataset and place it in **./data/ACDC**.
 ### Polyp
-You can refer to [this link](https://drive.google.com/file/d/1pFxb9NbM8mj_rlSawTlcXG1OdVGAbRQC/view) to download the Synapse dataset and place it in **./data/polyp**.
+You can refer to [this link](https://drive.google.com/file/d/1pFxb9NbM8mj_rlSawTlcXG1OdVGAbRQC/view) to download the Polyp dataset and place it in **./data/polyp**.
 ## Training
 ```
 python train_synapse.py
