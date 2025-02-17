@@ -50,5 +50,5 @@ python train_synapse.py
 ```
 python test_synapse.py
 ```
-## ACDC and Polyop
+## ACDC and Polyp
 The codes will be shown as soon.
