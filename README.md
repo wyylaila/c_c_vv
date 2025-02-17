@@ -1,5 +1,5 @@
 # RMEUNet
-There is some codes about RMEUNet can be used for training and test.
+There are some codes about RMEUNet that can be used for training and test.
 
 
 The file organization structure should be：
