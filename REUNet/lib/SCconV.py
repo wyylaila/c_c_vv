@@ -1,9 +1,3 @@
-'''
-Description:
-Date: 2023-07-21 14:36:27
-LastEditTime: 2023-07-27 18:41:47
-FilePath: /chengdongzhou/ScConv.py
-'''
 import torch
 import torch.nn.functional as F
 import torch.nn as nn
