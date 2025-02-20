@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr 10 09:57:49 2019
 
-@author: Fsl
-"""
-#改成从现有pth文件加载权重 而不是重新下载pth
 import torch.nn as nn
 import math
 import torch.utils.model_zoo as model_zoo
