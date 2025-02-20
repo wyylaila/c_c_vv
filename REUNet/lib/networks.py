@@ -81,15 +81,11 @@ class RMEUNet(nn.Module):
             model_dict.update(state_dict)
             self.backbone.load_state_dict(model_dict)
 
-        print('Model %s created, param count: %d' %
-              (encoder + ' backbone: ', sum([m.numel() for m in self.backbone.parameters()])))
 
         #   decoder initialization
         self.decoder = EMCAD(channels=channels, kernel_sizes=kernel_sizes, expansion_factor=expansion_factor,
                              dw_parallel=dw_parallel, add=add, lgag_ks=lgag_ks, activation=activation)
 
-        print('Model %s created, param count: %d' %
-              ('EMCAD decoder: ', sum([m.numel() for m in self.decoder.parameters()])))
 
         self.out_head1 = nn.Conv2d(channels[0], num_classes, 1)
         self.out_head2 = nn.Conv2d(channels[1], num_classes, 1)
@@ -97,8 +93,7 @@ class RMEUNet(nn.Module):
         self.out_head4 = nn.Conv2d(channels[3], num_classes, 1)
         self.out_head5 = nn.Conv2d(channels[4], num_classes, 1)
         self.rmt = VisRetNet()
-        print('Model %s created, param count: %d' %
-              ('RMT decoder: ', sum([m.numel() for m in self.rmt.parameters()])))
+
 
 
 
